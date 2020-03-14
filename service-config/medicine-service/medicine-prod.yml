@@ -1,6 +1,9 @@
 #Define the service running port
-server:
-  port: 9195
+
+#I commented the running port because of discovery service and need to running multiple instances of each service
+#server:
+#  port: 9195
+
 
 #Create database for particular service
 spring:
